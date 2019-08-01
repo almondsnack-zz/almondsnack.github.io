@@ -2,6 +2,18 @@ h1 {
   font-family: 'Libre Barcode 39 Text', cursive;
 }
 
-p {
+body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  background: #222;
+  margin: 0;
+  padding: 0;
+  min-width: 310px;
+}
+
+.section {
+  width:50%;
+  margin-left:25%;
+  margin-top:10%;
+  line-height: 1.6;
 }
