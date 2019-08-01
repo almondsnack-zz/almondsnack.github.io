@@ -11,13 +11,21 @@ h2, h3, h4, h5, h6 {
   font-family: 'Roboto', serif;
 }
 
-h2, h3 {
-  border-bottom: 3px solid #0050d8;
-}
-
 h1 {
   font-family: 'Merriweather Black', serif;
   border-bottom: 3px solid #e41d3d;
+}
+
+h2 {
+  border-bottom: 3px solid #0050d8;
+}
+
+h3 {
+  border-bottom: 3px solid #f1c40f;
+}
+
+h4 {
+  border-bottom: 3px solid #2ecc71;
 }
 
 .section {
