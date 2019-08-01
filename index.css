@@ -1,18 +1,19 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #ecf0f1;
-  background: #2c3e50;
+  color: #FFF;
+  background: #2C2F33;
   margin: 0;
   padding: 0;
   min-width: 310px;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  color: 
 }
 
 h1 {
-  font-family: 'Libre Barcode 39 Text', cursive;
+  font-family: 'Arvo', serif;
 }
 
 .section {
@@ -22,20 +23,28 @@ h1 {
   line-height: 1.6;
 }
 
+.uline-blue {
+  border-bottom: 2px solid #0050d8;
+}
+
+.uline-red {
+  border-bottom: 2px solid #e41d3d;
+}
+
 .brdr--rounded, .btn, .btn--link, .btn--blue, .btn--green, .btn--gray, .btn--red {
   border-radius: 3px; }
 
 .btn, .btn--link, .btn--blue, .btn--green, .btn--gray, .btn--red {
   padding: 0.5rem 1rem;
-  border: 2px solid #ccc;
-  color: #ccc;
+  border: 2px solid #FFF;
+  color: #FFF;
   text-decoration: none;
   text-align: center;
   background: transparent; }
 
 .btn:hover, .btn:focus, .btn:active {
   background-color: rgba(0, 0, 0, 0.05);
-  color: black; }
+  color: #ccc; }
 
 .btn--link {
   border-color: transparent;
