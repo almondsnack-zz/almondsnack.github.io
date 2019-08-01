@@ -109,3 +109,148 @@ h3, h4, h5, h6 {
 
 .btn--s {
   padding: 0.5rem; }
+
+@media only screen and (max-width:1380px) {
+	body {
+		max-width:50rem
+	}
+	#hpanel1, #hpanel2 {
+		max-width:100%;
+		flex-basis:100%;
+		border-left:none;
+		border-right:none
+	}
+	#hpanel1 {
+		border-bottom:.3rem solid #999
+	}
+	#hdevelop div.measure.p2 {
+		margin-left:1rem;
+		margin-right:auto
+	}
+	#hchat div.measure.p2 {
+		margin-right:1rem;
+		margin-left:auto
+	}
+	#hdevelop img {
+		margin-left:39.5rem
+	}
+	#hchat img {
+		margin-left:-9rem
+	}
+	#fgrdrow{
+		margin-bottom:1.5rem;
+		border-bottom:.3rem solid #999
+	}
+	#flogo{
+		text-align:center;
+		width:unset;
+		float:unset
+	}
+	#fcopy{
+		text-align:center;
+		margin-top:0;
+		margin-bottom:2.5rem;
+		width:unset;
+		float:unset;
+		margin-right:unset
+	}
+	#a1, #a2, #a3{
+		flex-basis:33.3333333333%
+	}
+	#a4, #a5{
+		flex-basis:50%;
+		margin-top:2rem;
+	}
+	#a4{
+		margin-left:auto
+	}
+	#a5{
+		margin-right:auto
+	}
+	img#hintroimg{
+		width:16rem;
+		object-position:left
+	}
+	img#hsurvivimg{
+		width:16rem;
+		object-position:right
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	#fcontact, #finfo, #fresc{
+		max-width:33.3333333333%;
+		flex-basis:33.3333333333%
+	}
+}
+
+@media only screen and (max-width:870px) {
+	#tradition {
+		min-height:unset
+	}
+	#tradition img {
+		display:none
+	}
+	#tradition h3 {
+		float:none
+	}
+	#tradition p {
+		float:none;
+		max-width:none
+	}
+	#hdevelop img, #hchat img {
+		display:none
+	}
+	#hdevelop p, #hchat p {
+		max-width:unset
+	}
+	#hdevelop div.measure.p2 {
+		margin-left:0
+	}
+	#hchat div.measure.p2 {
+		margin-right:0
+	}
+	#fgrdrow{
+		border-bottom:unset
+	}
+	#fcontact, #finfo, #fresc{
+		max-width:100%;
+		flex-basis:100%;
+		border-bottom:.3rem solid #999
+	}
+	#flogo{
+		margin-top:39rem
+	}
+	#lefthandsrv{
+		margin-left:unset
+	}
+	#righthandsrv{
+		margin-right:unset
+	}
+}
+
+@media only screen and (max-width:767px) {
+	#fcontact ul, #finfo ul, #fresc ul{
+		margin-left:-.5rem
+	}
+}
+
+@media only screen and (max-width:511px) {
+	#fcontact ul, #finfo ul, #fresc ul{
+		margin-left:-1.2rem
+	}
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width:.35rem
+}
+::-webkit-scrollbar-track {
+  background:#ddd
+}
+::-webkit-scrollbar-thumb {
+  background:#999 
+}
+::-webkit-scrollbar-thumb:hover {
+  background:#aaa
+}
