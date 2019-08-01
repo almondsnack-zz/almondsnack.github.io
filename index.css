@@ -13,12 +13,12 @@ h2, h3, h4, h5, h6 {
 }
 
 h2, h3 {
-  border-bottom: 2px solid #0050d8;
+  border-bottom: 3px solid #0050d8;
 }
 
 h1 {
   font-family: 'Arvo', serif;
-  border-bottom: 2px solid #e41d3d;
+  border-bottom: 3px solid #e41d3d;
 }
 
 .section {
@@ -29,11 +29,11 @@ h1 {
 }
 
 .uline-blue {
-  border-bottom: 2px solid #0050d8;
+  border-bottom: 3px solid #0050d8;
 }
 
 .uline-red {
-  border-bottom: 2px solid #e41d3d;
+  border-bottom: 3px solid #e41d3d;
 }
 
 .brdr--rounded, .btn, .btn--link, .btn--blue, .btn--green, .btn--gray, .btn--red {
