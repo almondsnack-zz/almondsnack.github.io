@@ -20,12 +20,8 @@ h2 {
   border-bottom: 3px solid #0050d8;
 }
 
-h3 {
-  border-bottom: 3px solid #f1c40f;
-}
-
-h4 {
-  border-bottom: 3px solid #2ecc71;
+h3, h4, h5, h6 {
+  border-bottom: 3px solid #bdc3c7;
 }
 
 .section {
